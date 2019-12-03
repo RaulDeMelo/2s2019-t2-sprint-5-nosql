@@ -1,0 +1,1 @@
+db.tasks.insertMany([{"titulo" : "Titulo U", "descricao" : "Java", "concluida" : "verdadeiro"},{"titulo" : "titulo O", "descricao" : "Csharp", "concluida" : "falso"},{"titulo" : "titulo P", "descricao" : "Firebase"},{"titulo" : "Titulo Y", "descricao" : "Microsoft"},{"titulo" : "Titulo R", "descricao" : "Oracle", "dataInclusao" : dataAtual}])

@@ -1,0 +1,14 @@
+db.tasks.find()
+db.tasks.find().pretty()
+db.tasks.find({"titulo" : {$in : ["Titulo A"]}})
+db.tasks.find({"titulo" : {$in : ["Titulo C"]}})
+db.tasks.find({"descricao" : {$in : ["mongodb"]}})
+db.tasks.find({"titulo" : {$in : ["Titulo B", "Titulo K"]}}, {"descricao" : {$in : ["nodejs", "html"]}}).pretty()
+db.tasks.find({$or : [{"titulo" : "Titulo B"}, {"titulo" : "Titulo C"}]}).pretty()
+db.tasks.find({$or : [{"titulo" : "Titulo B"}, {"titulo" : "Titulo C"}, {"descricao" : "javascript" }]}).pretty()
+db.tasks.find({"descricao" : {$in : ["mongodb", "css", "jquery"]}}).pretty()
+db.tasks.find({$or : [{"titulo" : "Titulo A"}, {"descricao" : {$in : ["es6", "bootstrap"]}}]}).pretty()]
+db.tasks.find({descricao : /.*E.*/i})
+
+
+db.tasks.find().sort({ _id : 1 }).pretty()

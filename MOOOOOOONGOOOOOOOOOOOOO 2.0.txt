@@ -1,0 +1,12 @@
+db.tasks.update({"_id" : ObjectId("5de4f20310739845334e5551")},{"titulo" : "Titulo Uava", "descricao" : "Java Best", "concluida" : "verdadeiro"})
+
+db.tasks.update({"_id" : ObjectId("5de4f20310739845334e5551")},{"titulo" : "Titulo Osharp", "descricao" : "CShark", "concluida" : "falso"})
+
+db.tasks.update({"_id" : ObjectId("5de4f20310739845334e5551")},{"titulo" : "Titulo Pirebase", "descricao" : "Fireb4ase"})
+
+db.tasks.update({"_id" : ObjectId("5de4f20310739845334e5551")},{"titulo" : "Titulo YMicrosoft", "descricao" : "MicroSOFT"})
+
+db.tasks.update({"_id" : ObjectId("5de4f20310739845334e5551")},{"titulo" : "Titulo Roracle", "descricao" : "Oracle Inc.", "dataInclusao" : dataAtual})
+
+let dataAtual = new Data()
+
